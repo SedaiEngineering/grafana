@@ -18,9 +18,9 @@ $colors-action-selected: rgba(204, 204, 220, 0.12);
 
 // New Colors
 // -------------------------
-$blue-light: #6E9FFF;
-$blue-base: #3D71D9;
-$blue-shade: rgb(90, 134, 222);
+$blue-light: #BFC5FF;
+$blue-base: #7373FF;
+$blue-shade: rgb(136, 136, 255);
 $red-base: #D10E5C;
 $red-shade: rgb(215, 50, 116);
 $green-base: #1A7F4B;
@@ -60,8 +60,8 @@ $gray-6: #f4f5f8;
 
 $white: #ffffff;
 
-$layer0: #111217;
-$layer1: #181b1f;
+$layer0: #0C0F16;
+$layer1: #181B22;
 $layer2: #22252b;
 
 $divider: rgba(204, 204, 220, 0.07);
@@ -76,7 +76,7 @@ $red: $red-base;
 $yellow: #ecbb13;
 $orange: #eb7b18;
 $purple: #9933cc;
-$variable: #6E9FFF;
+$variable: #BFC5FF;
 
 $brand-primary: #eb7b18;
 $brand-success: #1A7F4B;
@@ -96,9 +96,9 @@ $critical: #FF5286;
 
 // Scaffolding
 // -------------------------
-$body-bg: #111217;
-$page-bg: #111217;
-$dashboard-bg: #111217;
+$body-bg: #0C0F16;
+$page-bg: #0C0F16;
+$dashboard-bg: #0C0F16;
 
 $text-color-strong: #FFFFFF;
 $text-color: rgb(204, 204, 220);
@@ -106,7 +106,7 @@ $text-color-semi-weak: rgba(204, 204, 220, 0.65);
 $text-color-weak: rgba(204, 204, 220, 0.65);
 $text-color-faint: rgba(204, 204, 220, 0.6);
 $text-color-emphasis: #FFFFFF;
-$text-blue: #6E9FFF;
+$text-blue: #BFC5FF;
 
 $text-shadow-faint: 1px 1px 4px rgb(45, 45, 45);
 $textShadow: none;
@@ -132,16 +132,16 @@ $hr-border-color: $dark-9;
 
 // Panel
 // -------------------------
-$panel-bg: #181b1f;
+$panel-bg: #181B22;
 $panel-border: 1px solid rgba(204, 204, 220, 0.07);
 $panel-header-hover-bg: rgba(204, 204, 220, 0.16);
 $panel-box-shadow: none;
 $panel-corner: $panel-bg;
 
 // page header
-$page-header-bg: #111217;
+$page-header-bg: #0C0F16;
 $page-header-shadow: inset 0px -4px 14px $dark-3;
-$page-header-border-color: #111217;
+$page-header-border-color: #0C0F16;
 
 $divider-border-color: $gray-1;
 
@@ -167,15 +167,15 @@ $empty-list-cta-bg: #22252b;
 
 // Scrollbars
 $scrollbarBackground: #404357;
-$scrollbarBackground2: $dark-10;
+$scrollbarBackground2: #5D55F2;
 $scrollbarBorder: black;
 
 // Tables
 // -------------------------
 $table-bg-accent: #22252b;
 $table-border: rgba(204, 204, 220, 0.15);
-$table-bg-odd: rgb(28, 31, 35);
-$table-bg-hover: rgb(35, 38, 42);
+$table-bg-odd: rgb(28, 31, 38);
+$table-bg-hover: rgb(35, 38, 45);
 
 // Buttons
 // -------------------------
@@ -211,14 +211,14 @@ $btn-active-box-shadow: 0px 0px 4px rgba(255, 120, 10, 0.5);
 
 // Forms
 // -------------------------
-$input-bg: #111217;
+$input-bg: #0C0F16;
 $input-bg-disabled: rgba(204, 204, 220, 0.04);
 
 $input-color: rgb(204, 204, 220);
 $input-border-color: rgba(204, 204, 220, 0.15);
 $input-box-shadow: none;
-$input-border-focus: #6E9FFF;
-$input-box-shadow-focus: #6E9FFF !default;
+$input-border-focus: #BFC5FF;
+$input-box-shadow-focus: #BFC5FF !default;
 $input-color-placeholder: rgba(204, 204, 220, 0.6);
 $input-label-bg: #22252b;
 $input-color-select-arrow: $white;
@@ -233,7 +233,7 @@ $typeahead-selected-color: $yellow;
 
 // Dropdowns
 // -------------------------
-$dropdownBackground: #181b1f;
+$dropdownBackground: #181B22;
 $dropdownBorder: rgba(204, 204, 220, 0.07);
 $dropdownDividerTop: rgba(204, 204, 220, 0.07);
 $dropdownDividerBottom: rgba(204, 204, 220, 0.07);
@@ -265,7 +265,7 @@ $side-menu-header-color: rgb(204, 204, 220);
 
 // Menu dropdowns
 // -------------------------
-$menu-dropdown-bg: #181b1f;
+$menu-dropdown-bg: #181B22;
 $menu-dropdown-hover-bg: rgba(204, 204, 220, 0.16);
 $menu-dropdown-shadow: 0px 8px 24px rgb(1,4,9);
 
@@ -297,7 +297,7 @@ $tooltipArrowColor: #22252b;
 $tooltipBackgroundError: #D10E5C;
 $tooltipShadow: 0px 4px 8px rgba(24, 26, 27, 0.75);
 
-$popover-bg: #181b1f;
+$popover-bg: #181B22;
 $popover-color: rgb(204, 204, 220);
 $popover-border-color: rgba(204, 204, 220, 0.07);
 $popover-header-bg: #22252b;

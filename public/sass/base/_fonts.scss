@@ -153,3 +153,233 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
     U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+/********Sedai Fonts*****/
+/*IBM Plex Sans*/
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(#{$font-file-path}/ibm_plex_sans/IBMPlexSans-Italic.ttf) format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(#{$font-file-path}/ibm_plex_sans/IBMPlexSans-ExtraLightItalic.ttf) format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(#{$font-file-path}/ibm_plex_sans/IBMPlexSans-Light.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(#{$font-file-path}/ibm_plex_sans/IBMPlexSans-BoldItalic.ttf) format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(#{$font-file-path}/ibm_plex_sans/IBMPlexSans-ExtraLight.ttf) format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(#{$font-file-path}/ibm_plex_sans/IBMPlexSans-Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(#{$font-file-path}/ibm_plex_sans/IBMPlexSans-Medium.ttf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(#{$font-file-path}/ibm_plex_sans/IBMPlexSans-LightItalic.ttf) format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(#{$font-file-path}/ibm_plex_sans/IBMPlexSans-Thin.ttf) format('truetype');
+  src: url('IBMPlexSans-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(#{$font-file-path}/ibm_plex_sans/IBMPlexSans-ThinItalic.ttf) format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(#{$font-file-path}/ibm_plex_sans/IBMPlexSans-SemiBoldItalic.ttf) format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(#{$font-file-path}/ibm_plex_sans/IBMPlexSans-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(#{$font-file-path}/ibm_plex_sans/IBMPlexSans-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(#{$font-file-path}/ibm_plex_sans/IBMPlexSans-MediumItalic.ttf) format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+/*IBM Plex Mono*/
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(#{$font-file-path}/ibm_plex_mono/IBMPlexMono-Italic.ttf) format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(#{$font-file-path}/ibm_plex_mono/IBMPlexMono-ExtraLightItalic.ttf) format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(#{$font-file-path}/ibm_plex_mono/IBMPlexMono-Light.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(#{$font-file-path}/ibm_plex_mono/IBMPlexMono-BoldItalic.ttf) format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(#{$font-file-path}/ibm_plex_mono/IBMPlexMono-ExtraLight.ttf) format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(#{$font-file-path}/ibm_plex_mono/IBMPlexMono-Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(#{$font-file-path}/ibm_plex_mono/IBMPlexMono-Medium.ttf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(#{$font-file-path}/ibm_plex_mono/IBMPlexMono-LightItalic.ttf) format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(#{$font-file-path}/ibm_plex_mono/IBMPlexMono-Thin.ttf) format('truetype');
+  src: url('IBMPlexMono-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(#{$font-file-path}/ibm_plex_mono/IBMPlexMono-ThinItalic.ttf) format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(#{$font-file-path}/ibm_plex_mono/IBMPlexMono-SemiBoldItalic.ttf) format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(#{$font-file-path}/ibm_plex_mono/IBMPlexMono-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(#{$font-file-path}/ibm_plex_mono/IBMPlexMono-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url(#{$font-file-path}/ibm_plex_mono/IBMPlexMono-MediumItalic.ttf) format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}

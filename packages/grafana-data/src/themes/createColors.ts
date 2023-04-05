@@ -64,12 +64,14 @@ export interface ThemeColorsBase<TColor> {
     disabledOpacity: number;
   };
 
+  scrollbarBg: string;
+
   hoverFactor: number;
   contrastThreshold: number;
   tonalOffset: number;
 }
 
-export interface ThemeHoverStrengh {}
+export interface ThemeHoverStrengh { }
 
 /** @beta */
 export interface ThemeColors extends ThemeColorsBase<ThemeRichColor> {
@@ -103,9 +105,9 @@ class DarkColors implements ThemeColorsBase<Partial<ThemeRichColor>> {
   };
 
   primary = {
-    main: palette.blueDarkMain,
-    text: palette.blueDarkText,
-    border: palette.blueDarkText,
+    main: palette.sedaiBrandPrimary400,
+    text: palette.sedaiBrandPrimary200,
+    border: palette.sedaiBrandPrimary200,
   };
 
   secondary = {
@@ -134,8 +136,8 @@ class DarkColors implements ThemeColorsBase<Partial<ThemeRichColor>> {
   };
 
   background = {
-    canvas: palette.gray05,
-    primary: palette.gray10,
+    canvas: palette.sedaiDefaultBG,
+    primary: palette.gray90,
     secondary: palette.gray15,
   };
 
@@ -153,7 +155,7 @@ class DarkColors implements ThemeColorsBase<Partial<ThemeRichColor>> {
     brandHorizontal: 'linear-gradient(270deg, #F55F3E 0%, #FF8833 100%)',
     brandVertical: 'linear-gradient(0.01deg, #F55F3E 0.01%, #FF8833 99.99%)',
   };
-
+  scrollbarBg = palette.sedaiBrandPrimary500;
   contrastThreshold = 3;
   hoverFactor = 0.03;
   tonalOffset = 0.15;
@@ -165,9 +167,9 @@ class LightColors implements ThemeColorsBase<Partial<ThemeRichColor>> {
   blackBase = '36, 41, 46';
 
   primary = {
-    main: palette.blueLightMain,
-    border: palette.blueLightText,
-    text: palette.blueLightText,
+    main: palette.sedaiBrandPrimary400,
+    border: palette.sedaiBrandPrimary600,
+    text: palette.sedaiBrandPrimary600,
   };
 
   text = {
@@ -233,6 +235,8 @@ class LightColors implements ThemeColorsBase<Partial<ThemeRichColor>> {
     brandHorizontal: 'linear-gradient(90deg, #FF8833 0%, #F53E4C 100%)',
     brandVertical: 'linear-gradient(0.01deg, #F53E4C -31.2%, #FF8833 113.07%)',
   };
+
+  scrollbarBg = palette.sedaiBrandPrimary500;
 
   contrastThreshold = 3;
   hoverFactor = 0.03;

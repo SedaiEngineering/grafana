@@ -111,6 +111,8 @@ debug.test
 pkg/cmd/grafana-server/__debug_bin
 pkg/services/quota/quotaimpl/storage/storage.json
 
+/gocache
+
 # Ignore OSX indexing
 .DS_Store
 

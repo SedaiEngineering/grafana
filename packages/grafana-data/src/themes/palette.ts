@@ -16,11 +16,11 @@ export const palette = {
   darkBorder2: '#64646B',
 
   // Dashboard bg / layer 0 (light theme)
-  gray90: '#F4F5F5',
+  gray90: '#181B22',
   // Card bg / layer 1
-  gray100: '#F4F5F5',
+  gray100: '#0C0F16',
   // divider line
-  gray80: '#D0D1D3',
+  gray80: '#1C1F26',
   // from figma
   lightBorder1: '#E4E7E7',
 
@@ -41,4 +41,21 @@ export const palette = {
   greenLightText: '#0A764E',
   orangeLightMain: '#FAD34A',
   orangeLightText: '#8A6C00',
+
+  sedaiBrandPrimary50: "#F0F1FF",
+  sedaiBrandPrimary100: "#D9DCFF",
+  sedaiBrandPrimary200: "#BFC5FF",
+  sedaiBrandPrimary300: "#8C96FF",
+  sedaiBrandPrimary400: "#7373FF",
+  sedaiBrandPrimary500: "#5D55F2",
+  sedaiBrandPrimary600: "#4840D6",
+  sedaiBrandPrimary700: "#3B34BA",
+  sedaiBrandPrimary800: "#292399",
+  sedaiBrandPrimary900: "#09064C",
+  sedaiBrandPrimary1000: "#333080",
+  sedaiBrandPrimary1100: "#292865",
+  sedaiBrandPrimary1200: "#1F204B",
+  sedaiBrandPrimary1300: "#191A39",
+
+  sedaiDefaultBG: "#0C0F16"
 };

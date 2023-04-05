@@ -162,7 +162,7 @@ $empty-list-cta-bg: $gray-6;
 
 // Scrollbars
 $scrollbarBackground: $gray-4;
-$scrollbarBackground2: $gray-4;
+$scrollbarBackground2: ${theme.colors.scrollbarBg};
 $scrollbarBorder: $gray-7;
 
 // Tables

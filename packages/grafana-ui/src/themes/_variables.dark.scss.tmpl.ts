@@ -165,7 +165,7 @@ $empty-list-cta-bg: ${theme.colors.background.secondary};
 
 // Scrollbars
 $scrollbarBackground: #404357;
-$scrollbarBackground2: $dark-10;
+$scrollbarBackground2: ${theme.colors.scrollbarBg};
 $scrollbarBorder: black;
 
 // Tables
